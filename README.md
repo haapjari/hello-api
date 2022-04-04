@@ -17,8 +17,13 @@
 - Path: `/hello`, Method: `GET` - Returns a Message
 - Path: `/form`, Method: `POST` - Returns a HTML Form
 
-### Example POST
+Example POST to /form
 
 ```
-
+{
+    "name": "User",
+    "address": "Test Street 1"
+}
 ```
+
+---
